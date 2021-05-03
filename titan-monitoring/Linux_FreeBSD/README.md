@@ -47,7 +47,7 @@ Si vous avez le moindre doute, redémarrez la machine. Une machine qui n'aura pa
 
 Il faut **impérativement** redémarrer la machine depuis l'interface Titan SmallCloud, un redémarrage *software* (via la commande `reboot` ou `shutdown -r` par exemple) n'est pas suffisante.
 
-<img src="/assets/img/reboot-fr.png" width="200"/>
+<img src="/assets/img/reboot-fr.png" width="300"/>
 
 ---
 
@@ -89,5 +89,5 @@ If graphics do not appear or if you have any doubt, please reboot your machine.
 
 A restart of the machine is required if it has not been restarted since March 10, 2021. This restart **must** be executed via the Titan SmallCloud interface. A *software* restart (eg. using `reboot` or `shutdown -r` commands) is not sufficient.
 
-<img src="/assets/img/reboot-en.png" width="200"/>
+<img src="/assets/img/reboot-en.png" width="300"/>
 
