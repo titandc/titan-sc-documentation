@@ -26,7 +26,9 @@ Téléchargez l'outil de [monitoring](https://repo.titandc.io/monitoring-client/
 
 Trouvez l'emplacement où il a été enregistré puis exécutez le. Le message suivant va apparaitre. L'application peut être exécuté.
 
-![Execute](/_images/titan-monitoring/execute.png)
+<p align="center">
+  <img src="/_images/titan-monitoring/execute.png" width="500"/>
+</p>
 
 L'installation va se dérouler et une fois terminée, un service Windows sera lancé. Les statistiques sont maintenant affichées sur l'interface Titan SmallCloud.
 
@@ -50,6 +52,8 @@ Download the [monitoring](https://repo.titandc.io/monitoring-client/install-tita
 
 Find the location where it was saved and then run it. The following message will appear. The application can be executed.
 
-![Execute](/_images/titan-monitoring/execute.png)
+<p align="center">
+  <img src="/_images/titan-monitoring/execute.png" width="500"/>
+</p>
 
 The installation will take place and once completed, a Windows service will be launched. You should now have the statistics in your Titan SmallCloud interface.
