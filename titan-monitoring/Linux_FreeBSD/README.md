@@ -18,7 +18,7 @@ Afin de bénéficier de l'ensemble des statistiques présentes sur la dashboard 
 
 L'ensemble des machines dont les données de monitoring sont manquantes remontent les gauges suivantes :
 
-<img src="/assets/img/missing-metrics.png" width="700"/>
+<img src="/assets/img/missing-metrics-fr.png" width="700"/>
 
 ### Installer l'outil
 
@@ -47,7 +47,7 @@ Si vous avez le moindre doute, redémarrez la machine. Une machine qui n'aura pa
 
 Il faut **impérativement** redémarrer la machine depuis l'interface Titan SmallCloud, un redémarrage *software* (via la commande `reboot` ou `shutdown -r` par exemple) n'est pas suffisante.
 
-<img src="/assets/img/reboot.png" width="200"/>
+<img src="/assets/img/reboot-fr.png" width="200"/>
 
 ---
 
@@ -61,7 +61,7 @@ In order to benefit from all the statistics present on the Titan SmallCloud dash
 
 Only the machines reporting the following incomplete metric gauges are concerned by the operation:
 
-<img src="/assets/img/missing-metrics.png" width="700"/>
+<img src="/assets/img/missing-metrics-en.png" width="700"/>
 
 ### Installation of the tool
 
@@ -85,7 +85,9 @@ At the end of the installation procedure, the `titan-monitoring-client` is now r
 
 *If the machine has been restarted since March 10, 2021, this step is optional.*
 
+If graphics do not appear or if you have any doubt, please reboot your machine.
+
 A restart of the machine is required if it has not been restarted since March 10, 2021. This restart **must** be executed via the Titan SmallCloud interface. A *software* restart (eg. using `reboot` or `shutdown -r` commands) is not sufficient.
 
-<img src="/assets/img/reboot.png" width="200"/>
+<img src="/assets/img/reboot-en.png" width="200"/>
 
