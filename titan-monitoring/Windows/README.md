@@ -21,7 +21,7 @@ L'installation de l'outil `titan-monitoring` a été testé sur les versions sui
 
 *Veuillez noter que pour l'instant, les binaires de l'outil `titan-monitoring` et de son installeur ne sont pas encore signés.*
 
-### Installation de l'outil
+### 1) Installation de l'outil
 
 Téléchargez l'outil de [monitoring](https://repo.titandc.io/monitoring-client/install-titan-mc.exe) sur votre machine Windows.
 
@@ -33,7 +33,7 @@ Une fois l'installation terminée, un service Windows sera automatiquement lanc�
 
 <img src="/assets/img/metrics-fr.png" width="700"/>
 
-### Redémarrer la machine
+### 2) Redémarrer la machine
 
 *Si la machine a été redémarrée après la date du 10 mars 2021, cette étape est facultative.*
 
@@ -60,7 +60,7 @@ The installation of the `titan-monitoring` tool has been tested on the following
 
 *Please note that, at this time, `titan-monitoring` and installation binaries are not yet signed.* 
 
-### Installation of the tool
+### 1) Installation of the tool
 
 Download the [monitoring](https://repo.titandc.io/monitoring-client/install-titan-mc.exe) tool on your Windows machine.
 
@@ -72,7 +72,7 @@ The installation will take place and once completed, a Windows service will be a
 
 <img src="/assets/img/metrics-en.png" width="700"/>
 
-### Restart the machine
+### 2) Restart the machine
 
 *If the machine has been restarted since March 10, 2021, this step is optional.*
 
