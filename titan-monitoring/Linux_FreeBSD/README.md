@@ -14,13 +14,13 @@ Afin de bénéficier de l'ensemble des statistiques présentes sur la dashboard 
 
 *Les machines ayant été créées ou réinitialisées après le 10 Mars 2021 intègrent déjà l'outil de monitoring de façon native, il 'est donc pas nécessaire de réaliser cette opération sur ces dernières.*
 
-### Détecter les machines qui ne bénéficient pas encore de l'outil de monitoring
+### 1) Détecter les machines qui ne bénéficient pas encore de l'outil de monitoring
 
 L'ensemble des machines dont les données de monitoring sont manquantes remontent les gauges suivantes :
 
 <img src="/assets/img/missing-metrics-fr.png" width="700"/>
 
-### Installer l'outil
+### 2) Installer l'outil
 
 Il est nécessaire de se connecter sur votre machine Titan, de préférence en utilisant le protocole SSH plutôt que par le KVM (*il n'est pas possible de faire un copier/coller dans un KVM*).
 
@@ -39,7 +39,7 @@ wget -q https://repo.titandc.io/monitoring-client/install.sh -O - | sh /dev/stdi
 Le service `titan-monitoring-client` est maintenant lancé. Les statistiques sur l'interface Titan SmallCloud seront automatiquement remontées sur votre dashboard. Si ce n'est pas le cas, la machine doit alors être redémarrée comme expliqué ci-dessous.
 
 
-### Redémarrer la machine
+### 3) Redémarrer la machine
 
 *Si la machine a été redémarrée après la date du 10 mars 2021, cette étape est facultative.*
 
@@ -57,13 +57,13 @@ In order to benefit from all the statistics present on the Titan SmallCloud dash
 
 *Any new machine created or reinitialized after March 10, 2021 already integrate the monitoring tool natively, it is therefore unnecessary to follow this procedure.*
 
-### Detect machines requiring manual installation
+### 1) Detect machines requiring manual installation
 
 Only the machines reporting the following incomplete metric gauges are concerned by the operation:
 
 <img src="/assets/img/missing-metrics-en.png" width="700"/>
 
-### Installation of the tool
+### 2) Installation of the tool
 
 It is necessary to connect to your Titan machine, preferably using the SSH protocol rather than the KVM. *It is not possible to copy/paste into a KVM.*
 
@@ -81,7 +81,7 @@ wget -q https://repo.titandc.io/monitoring-client/install.sh -O - | sh /dev/stdi
 
 At the end of the installation procedure, the `titan-monitoring-client` is now running. Statistics will now be displayed on the Titan SmallCloud interface. If this is not the case, then you need to reboot your machine as explained below.
 
-### Restart the machine
+### 3) Restart the machine
 
 *If the machine has been restarted since March 10, 2021, this step is optional.*
 
