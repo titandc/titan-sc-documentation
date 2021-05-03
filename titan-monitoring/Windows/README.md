@@ -31,7 +31,17 @@ Trouvez l'emplacement où il a été enregistré puis exécutez-le, le message s
 
 Une fois l'installation terminée, un service Windows sera automatiquement lancé. Les statistiques sont maintenant affichées sur l'interface Titan SmallCloud.
 
-<img src="/assets/img/metrics.png" width="700"/>
+<img src="/assets/img/metrics-fr.png" width="700"/>
+
+### Redémarrer la machine
+
+*Si la machine a été redémarrée après la date du 10 mars 2021, cette étape est facultative.*
+
+Si les jauges et graphiques n'apparaissent pas ou que vous avez le moindre doute, redémarrez la machine. Une machine qui n'aura pas été redémarrée ne verra pas ses statistiques remonter.
+
+Il faut **impérativement** redémarrer la machine depuis l'interface Titan SmallCloud, un redémarrage *software* (via la commande `reboot` ou `shutdown -r` par exemple) n'est pas suffisante.
+
+<img src="/assets/img/reboot-fr.png" width="300"/>
 
 ---
 
@@ -60,5 +70,15 @@ Find the location where it was saved and then execute it, the following message 
 
 The installation will take place and once completed, a Windows service will be automatically launched. You should now have the statistics in your Titan SmallCloud interface.
 
-<img src="/assets/img/metrics.png" width="700"/>
+<img src="/assets/img/metrics-en.png" width="700"/>
+
+### Restart the machine
+
+*If the machine has been restarted since March 10, 2021, this step is optional.*
+
+If graphics do not appear or if you have any doubt, please reboot your machine.
+
+A reboot is required if the machine has not been restarted since March 10, 2021. This restart **must** be executed via the Titan SmallCloud interface. A *software* restart (eg. using `reboot` or `shutdown -r` commands) is not sufficient.
+
+<img src="/assets/img/reboot-en.png" width="300"/>
 
