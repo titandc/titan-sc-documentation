@@ -2,11 +2,13 @@
 
 - [Titan-monitoring](#titan-monitoring)
   - [Français](#français)
-    - [Redémarrer la machine](#redémarrer-la-machine)
-    - [Installer l'outil](#installer-loutil)
+    - [1) Détecter les machines qui ne bénéficient pas encore de l'outil de monitoring](#1-détecter-les-machines-qui-ne-bénéficient-pas-encore-de-loutil-de-monitoring)
+    - [2) Installer l'outil](#2-installer-loutil)
+    - [3) Redémarrer la machine](#3-redémarrer-la-machine)
   - [English](#english)
-    - [Restart the machine](#restart-the-machine)
-    - [Installation of the tool](#installation-of-the-tool)
+    - [1) Detect machines requiring manual installation](#1-detect-machines-requiring-manual-installation)
+    - [2) Installation of the tool](#2-installation-of-the-tool)
+    - [3) Restart the machine](#3-restart-the-machine)
 
 ## Français
 

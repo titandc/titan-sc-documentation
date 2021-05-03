@@ -2,9 +2,11 @@
 
 - [Titan-monitoring](#titan-monitoring)
   - [Français](#français)
-    - [Installation de l'outil](#installation-de-loutil)
+    - [1) Installation de l'outil](#1-installation-de-loutil)
+    - [2) Redémarrer la machine](#2-redémarrer-la-machine)
   - [English](#english)
-    - [Installation of the tool](#installation-of-the-tool)
+    - [1) Installation of the tool](#1-installation-of-the-tool)
+    - [2) Restart the machine](#2-restart-the-machine)
 
 ## Français
 
