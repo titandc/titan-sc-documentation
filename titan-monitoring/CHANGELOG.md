@@ -3,4 +3,5 @@
 ## 1.0.0
 
 * First version released 
-* Get statistics about the RAM/CPU/DISK
+* Get statistics about RAM/CPU/DISK
+

@@ -8,52 +8,57 @@
 
 ## Français
 
-*Cette procédure est valable pour l'ensemble des Windows.*
+*Cette procédure est valable pour l'ensemble des OS Windows proposés par Titan SmallCloud.*
 
-Afin de bénéficier de l'ensemble des statistiques présentes sur la dashboard de Titan SmallCloud, il est dorénavant nécessaire d'installer un service sur Windows.
+Afin de bénéficier de l'ensemble des statistiques présentes sur la dashboard de Titan SmallCloud, il est dorénavant nécessaire d'installer un service de monitoring sur Windows.
 
-L'installation de l'outil `titan-monitoring` a été testé sur des versions à jour des Windows suivants à date du 28 avril 2021 :
+L'installation de l'outil `titan-monitoring` a été testé sur les versions suivantes de l'OS Windows à date du 28 avril 2021 :
 
-* Windows 2012
-* Windows 2016
-* Windows 2019
+* Windows 10 20h2
+* Windows server 2012 r2
+* Windows server 2016
+* Windows server 2019
 
-*Veuillez noter que pour l'instant, les binaires de `titan-monitoring` et d'installation ne sont pas encore signés.*
+*Veuillez noter que pour l'instant, les binaires de l'outil `titan-monitoring` et de son installeur ne sont pas encore signés.*
 
 ### Installation de l'outil
 
 Téléchargez l'outil de [monitoring](https://repo.titandc.io/monitoring-client/install-titan-mc.exe) sur votre machine Windows.
 
-Trouvez l'emplacement où il a été enregistré puis exécutez le. Le message suivant va apparaitre. L'application peut être exécuté.
+Trouvez l'emplacement où il a été enregistré puis exécutez-le, le message suivant va apparaître :
 
-<p align="center">
-  <img src="/_images/titan-monitoring/execute.png" width="500"/>
-</p>
+<img src="/assets/img/windows-security.png" width="500"/>
 
-L'installation va se dérouler et une fois terminée, un service Windows sera lancé. Les statistiques sont maintenant affichées sur l'interface Titan SmallCloud.
+Une fois l'installation terminée, un service Windows sera automatiquement lancé. Les statistiques sont maintenant affichées sur l'interface Titan SmallCloud.
+
+<img src="/assets/img/metrics.png" width="700"/>
+
+---
 
 ## English
 
-*This procedure is valid for all Windows.*
+*This procedure is valid for all Windows OS delivered on Titan SmallCoud.*
 
-In order to benefit from all the statistics present on the Titan SmallCloud dashboard, it is now necessary to install a service on Windows.
+In order to benefit from all the statistics shown in Titan SmallCloud dashboard, it is now necessary to install a monitoring service on Windows.
 
-The installation of the `titan-monitoring` tool has been tested on updated versions of the following Windows as of April 28, 2021:
+The installation of the `titan-monitoring` tool has been tested on the following Windows OS as of April 28, 2021:
 
-* Windows 2012
-* Windows 2016
-* Windows 2019
+* Windows 10 20h2
+* Windows server 2012 r2
+* Windows server 2016
+* Windows server 2019
 
-*Please note that at this time the `titan-monitoring` and installation binaries are not yet signed.* 
+*Please note that, at this time, `titan-monitoring` and installation binaries are not yet signed.* 
 
 ### Installation of the tool
 
 Download the [monitoring](https://repo.titandc.io/monitoring-client/install-titan-mc.exe) tool on your Windows machine.
 
-Find the location where it was saved and then run it. The following message will appear. The application can be executed.
+Find the location where it was saved and then execute it, the following message will appear:
 
-<p align="center">
-  <img src="/_images/titan-monitoring/execute.png" width="500"/>
-</p>
+<img src="/assets/img/windows-security.png" width="500"/>
 
-The installation will take place and once completed, a Windows service will be launched. You should now have the statistics in your Titan SmallCloud interface.
+The installation will take place and once completed, a Windows service will be automatically launched. You should now have the statistics in your Titan SmallCloud interface.
+
+<img src="/assets/img/metrics.png" width="700"/>
+

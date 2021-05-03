@@ -1,9 +1,10 @@
-# titan-sc-documentation
+# Titan SmallCloud documentation
 
 ## Français
 
-Ce dépôt contient la documentation d'outils à destination de nos clients.
+Ce dépôt contient la documentation des différents outils mis à destination de nos clients.
 
 ## English
 
-This repository is meant to provide the documentation about tools to our customers.
+This repository provides documentation about all tools delivered to our customers.
+
