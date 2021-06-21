@@ -1,6 +1,12 @@
 # Titan-sc-cli snapshot rotate
 
-[_TOC_]
+- [Titan-sc-cli snapshot rotate](#titan-sc-cli-snapshot-rotate)
+  - [Français](#français)
+    - [Installation de l'outil `titan-sc`](#installation-de-loutil-titan-sc)
+    - [Créer la tâche planifiée](#créer-la-tâche-planifiée)
+  - [English](#english)
+    - [Installation of the `titan-sc` tool](#installation-of-the-titan-sc-tool)
+    - [Create the scheduled task](#create-the-scheduled-task)
 
 ## Français
 
@@ -20,15 +26,15 @@ Ouvrir le planificateur de tâche de Windows.
 
 Créer une tâche :
 
-<img src="/assets/img/windows-create-task-description.png" width="500"/>
+<img src="/assets/img/windows-create-task-description.png" width="700"/>
 
 Ajouter un élément de déclenchement. Le temps entre deux snapshots est de 30 minutes minimum.
 
-<img src="/assets/img/windows-create-trigger.png" width="500"/>
+<img src="/assets/img/windows-create-trigger.png" width="700"/>
 
 Ajouter une action :
 
-<img src="/assets/img/windows-create-action.png" width="500"/>
+<img src="/assets/img/windows-create-action.png" width="700"/>
 
 * `Program/script` : Chemin complet vers le binaire `titan-sc.exe`. Dans l'exemple : `C:\Program Files\titan-sc\titan-sc.exe`
 * `Add arguments (optional)` : Arguments du binaire pour permettre l'exécution de la commande choisi. Ici : `snapshot rotate --server-uuid "<server_uuid>" -f`
@@ -58,15 +64,15 @@ Open the Windows Task Scheduler.
 
 Create a task:
 
-<img src="/assets/img/windows-create-task-description.png" width="500"/>
+<img src="/assets/img/windows-create-task-description.png" width="700"/>
 
 Add a trigger element. The time between two snapshots is at least 30 minutes.
 
-<img src="/assets/img/windows-create-trigger.png" width="500"/>
+<img src="/assets/img/windows-create-trigger.png" width="700"/>
 
 Add an action
 
-<img src="/assets/img/windows-create-action.png" width="500"/>
+<img src="/assets/img/windows-create-action.png" width="700"/>
 
 * `Program/script` : Full path to the `titan-sc.exe` binary. In the example: `C:\Program Files\titan-sc\titan-sc.exe`
 * `Add arguments (optional)` : Arguments of the binary to allow the execution of the chosen command. Here: `snapshot rotate --server-uuid "<server_uuid>" -f`
